@@ -1,8 +1,6 @@
 .App {
-  font-family: 'Montserrat', Courier, monospace;
-  position: fixed;
-  justify-content: center;
-  padding: 50px;
+  font-family: 'Montserrat', Courier, monospace;  
+  resize: both;
 }
 
 .mainLogo {
@@ -10,59 +8,120 @@
 }
 
 .Header {
-  padding: 3px 100px;
+  padding: 0.1rem 4rem;
   display: flex;
   align-items: center;
-  /* border-style: solid;
-  border-color: rgb(215, 215, 215); */
 }
 
 .Header > .home, .opportunities, .recruit, .aboutUs {
-  margin-right: 4vmin;
-
+  margin-right: 2rem;
+  white-space: nowrap;
 }
 
-button {
+.button {
     background-image: linear-gradient(to right, #0e99ff, #4334eb);
-    border-radius: 28px;
+    border-radius: 1rem;
     border-style: none;
-    font-family: Arial;
     color: #ffffff;
-    font-size: 15px;
-    font-weight:700;
+    font-size: 1rem;
+    font-weight:800;
     text-decoration: none;
-    height: 35px;
-    width: 100px;
+    height: 2rem;
+    width: 7rem;
+    white-space: nowrap;
 }
 
 .welcome{
-  /* background-image: url('../src/handsPatternUpdated.svg'); */
+  /* background-image: url('../src/handsPatternUpdated.svg');
   background-repeat: no-repeat;
-  background-color: white;
-  height: 100vh;
-  background-size: 100vh;
+  background-color: white; */
+  height: 52.5rem;
+  background-size: 55rem;
   display: flex;
   flex-direction: column;
 }
 
+.welcome-bg-pattern{
+  width: 50rem;
+  position: absolute;
+  z-index: -1;
+}
+
 .welcome-mainTitle{
-  margin: 0;
-  padding-top: 15vh;
-  font-size: 10vh;
-  font-weight: 600;
+  max-width: 500rem;
+  align-items: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7rem;
+  margin-bottom: 0;
+  font-size: 5rem;
+  font-weight: 600;
   white-space: nowrap;
 }
 
 .welcome-subTitle{
-  margin: 40px auto;
-  font-size: 3vh;
+  max-width: 500rem;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.2rem;
   font-weight: 400;
   white-space: nowrap;
 }
 
 .welcome-button {
-  margin: 0 auto;
+  max-width: 500rem;
+  margin: 1rem auto;
+  height: 2.2rem;
+  width: 9rem;
 }
 
+.welcome-img {
+  width: 45rem;
+  padding-top: 20rem;
+  position: absolute;
+  right: 2rem;
+  z-index: -1;
+}
 
+.review-container {
+  background: url(review-bg.png) top left repeat, linear-gradient(to top, #0e99ff, #4334eb) no-repeat;
+  background-size: contain;
+  padding: 0;
+  height: 66rem;
+  margin-top: 1rem;
+}
+
+.review-h1 {
+  color: white;
+  font-weight: 600;
+  width: 40rem;
+}
+
+.left-align {
+  margin-left: 13vw;
+  padding-top: 5rem;
+  text-align: left;
+
+}
+
+.right-align {
+  align-self: right;
+  margin-right: 13vw;
+  padding-top: 5rem;
+  text-align: right;
+  float: right;
+}
+
+.review-button {
+    background-image: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    border-style: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight:700;
+    text-decoration: none;
+    height: 2.8rem;
+    width: 14rem;
+    white-space: nowrap;
+}

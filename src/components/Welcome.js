@@ -1,12 +1,15 @@
 import React from 'react'
+import welcomeImg from '../welcomeImg2.png'
+import backgroundPattern from '../handsPatternUpdated.svg'
 
 function Welcome(){
     return(
         <div className="welcome">
-            <div className="backgroundImg"></div>
+            <img className="welcome-bg-pattern" src={backgroundPattern} alt="people"/>
             <h1 className="welcome-mainTitle">Connecting Volunteers <br/> Around the World</h1>
             <p className="welcome-subTitle">Find Your Match. Volunteer. Impact. </p>
-            <button className="welcome-button">Sign Up</button>
+            <button className="button welcome-button">Sign Up</button>
+            <img className="welcome-img" src={welcomeImg} alt="people"/>
         </div>
     )
 }
