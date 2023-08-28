@@ -2,7 +2,10 @@ import React from 'react'
 
 function Feedback (){
     return (
-        <h1>I am feedback</h1>
+        <div className="left-align feedback-container">
+            <h1>I am feedback</h1>
+        </div>
+        
     )
 }
 

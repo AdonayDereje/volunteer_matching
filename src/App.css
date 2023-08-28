@@ -90,6 +90,8 @@
   padding: 0;
   height: 66rem;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .review-h1 {
@@ -98,20 +100,32 @@
   width: 40rem;
 }
 
-.left-align {
+/* .left-align {
   margin-left: 13vw;
   padding-top: 5rem;
   text-align: left;
-
 }
 
 .right-align {
-  align-self: right;
   margin-right: 13vw;
   padding-top: 5rem;
   text-align: right;
-  float: right;
+} */
+
+
+.left-align {
+  padding-top: 5rem;
+  text-align: left;
+  padding-left: 10rem; 
 }
+
+.right-align {
+  padding-top: 5rem;
+  text-align: right;
+  padding-right: 10rem; 
+}
+
+
 
 .review-button {
     background-image: rgb(255, 255, 255);
@@ -124,4 +138,8 @@
     height: 2.8rem;
     width: 14rem;
     white-space: nowrap;
+}
+
+.feedback-container {
+  display: inline;
 }
