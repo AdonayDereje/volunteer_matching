@@ -1,5 +1,5 @@
 Volunteer Matching Website
-Project Screenshot
+
 
 Welcome to the Volunteer Matching Website project! This is a platform built using React that aims to connect volunteers with various opportunities and organizations. Whether you're a volunteer looking to make a positive impact or an organization seeking help, this website provides a user-friendly interface to facilitate the process.
 
