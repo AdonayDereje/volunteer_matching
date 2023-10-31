@@ -3,7 +3,7 @@ import React from 'react'
 function Feedback (){
     return (
         <div className="left-align feedback-container">
-            <h1>I am feedback</h1>
+            <h1>Volunteer's Feedback</h1>
         </div>
         
     )
