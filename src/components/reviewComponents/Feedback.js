@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from '/Users/adonaydereje/Documents/Programming/reactFcc/volunteer_matching/src/profilePic.jpg'
+import profilePic from './src/profilePic.jpg'
 
 function Feedback (){
     return (
