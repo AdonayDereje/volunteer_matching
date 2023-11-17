@@ -16,6 +16,11 @@
 .Header > .home, .opportunities, .recruit, .aboutUs {
   margin-right: 2rem;
   white-space: nowrap;
+  background-color: none;
+}
+
+.p:hover {
+  background-color: #0e99ff;
 }
 
 .button {

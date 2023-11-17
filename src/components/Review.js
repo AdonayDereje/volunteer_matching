@@ -14,11 +14,12 @@ function Review(){
                     leftAlign= {false}  
                 />
                 <ReviewTopElement 
+                    leftAlign={true} 
                     text="Are you looking for volunteers
                     that will aid you in your journey
                     for Good? They're just one click away!" 
                     buttonText="Recruit Volunteers"
-                    leftAlign={true}    
+                    
                 />
                 <Feedback />
 

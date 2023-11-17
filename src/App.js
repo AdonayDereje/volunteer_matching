@@ -3,8 +3,8 @@ import React from 'react'
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Review from './components/Review';
-// import ContactUs from './components/ContactUs';
-// import Footer from './components/Footer';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Header/>
       <Welcome/>
       <Review/>
-      {/* <ContactUs/> */}
-      {/* <Footer/> */}
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 }
