@@ -25,7 +25,7 @@
 
 .button {
     background-image: linear-gradient(to right, #0e99ff, #4334eb);
-    border-radius: 1rem;
+    border-radius: 3rem;
     border-style: none;
     color: #ffffff;
     font-size: 1rem;
@@ -77,7 +77,7 @@
 .welcome-button {
   max-width: 500rem;
   margin: 1rem auto;
-  height: 2.2rem;
+  height: 2.7rem;
   width: 9rem;
 }
 
@@ -93,10 +93,11 @@
   background: url(review-bg.png) top left repeat, linear-gradient(to top, #0e99ff, #4334eb) no-repeat;
   background-size: contain;
   padding: 0;
-  height: 66rem;
+  height: 70rem;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  padding-bottom: 6rem;
 }
 
 .review-h1 {
@@ -128,6 +129,7 @@
   padding-top: 5rem;
   text-align: right;
   padding-right: 10rem; 
+  align-self: flex-end;
 }
 
 
@@ -146,5 +148,29 @@
 }
 
 .feedback-container {
-  display: inline;
+  display: inline-block;
+  margin-left: 3rem;
+  background-color: #ffffff;
+  height: 27rem;
+  width: 20rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.feedback-container > p {
+  padding: 0.8rem;
+  margin: 0;
+  text-align: left;
+}
+.feedback-profilePic{
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%; 
+}
+
+.feedbackBlock-container {
+  display: inline-block;
+  padding-top: 10rem; 
+  
 }

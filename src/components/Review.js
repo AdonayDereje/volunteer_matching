@@ -19,11 +19,9 @@ function Review(){
                     that will aid you in your journey
                     for Good? They're just one click away!" 
                     buttonText="Recruit Volunteers"
-                    
-                />
-                <Feedback />
-
-            </div>          
+                /> 
+                <Feedback/>   
+            </div>    
     )
 }
 

@@ -10,7 +10,7 @@ function Header(){
             <p className="opportunities">Opportunities<img src={Arrow} width="13px" alt=""/></p>
             <p className="recruit">Recruit<img src={Arrow} width="13px" alt=""/></p>
             <p className="aboutUs">About Us</p>
-            <button>Sign Up</button>
+            <button className="button">Sign Up</button>
         </div>
     )
 }
