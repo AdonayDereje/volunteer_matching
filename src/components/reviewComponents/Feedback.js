@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from './src/profilePic.jpg'
+// import profilePic from './src/profilePic.jpg'
 
 function Feedback (){
     return (
@@ -16,7 +16,7 @@ function Feedback (){
 function FeedbackBlocks(){
     return (
         <div className="feedback-container">
-            <img className="feedback-profilePic" src={profilePic} alt="person portrait"/>
+            <img className="feedback-profilePic" src="" alt="person portrait"/>
             <h1>Volunteer's Feedback</h1>
             <p>My name is Adonay. And Ivolunteer has been a very good website to find opportunities I resonate with and it has helped me greatly. I reccomend it to everyone.</p>
             <p><b>Adonay D.</b></p>
