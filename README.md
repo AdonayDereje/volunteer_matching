@@ -34,7 +34,10 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/AdonayDereje/volunteer-matching-website.git
+git clone https://github.com/AdonayDereje/volunteer_matching.git
+
+
+
 Navigate to the project directory:
 
 sh
