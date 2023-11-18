@@ -26,7 +26,7 @@ Responsive design for a seamless experience on all devices
 Getting Started
 Follow these steps to set up the project locally on your machine.
 
-Prerequisites
+Prerequisites: 
 Node.js (version 12 or higher)
 npm (comes with Node.js)
 Installation
@@ -34,7 +34,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/your-username/volunteer-matching-website.git
+git clone https://github.com/AdonayDereje/volunteer-matching-website.git
 Navigate to the project directory:
 
 sh
@@ -58,15 +58,17 @@ Explore the website and its features.
 Contributing
 Contributions are welcome! If you have any improvements or new features to add, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature: git checkout -b feature-name.
-Make your changes and commit them: git commit -m "Add your message here".
-Push to the branch: git push origin feature-name.
-Create a pull request describing your changes.
-License
+1. Fork the repository.
+2. Create a new branch for your feature: git checkout -b feature-name.
+3. Make your changes and commit them: git commit -m "Add your message here".
+4. Push to the branch: git push origin feature-name.
+5. Create a pull request describing your changes.
+
+License: 
 This project is licensed under the MIT License.
 
-Acknowledgements
+Acknowledgements: 
+
 This project was inspired by the need to bridge the gap between volunteers and organizations.
 Special thanks to the React community for their fantastic libraries and tools that made this project possible.
 Feel free to explore, contribute, and use the Volunteer Matching Website for your volunteer and organization needs! If you encounter any issues or have suggestions for improvement, please don't hesitate to create an issue or pull request. Happy volunteering!
