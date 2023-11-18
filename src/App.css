@@ -52,8 +52,8 @@
   z-index: -1;
 }
 
-.welcome-mainTitle{
-  max-width: 500rem;
+.welcome-mainTitle {
+  max-width: 50%;
   align-items: center;
   text-align: center;
   margin-left: auto;
@@ -63,7 +63,22 @@
   font-size: 5rem;
   font-weight: 600;
   white-space: nowrap;
+  overflow:scroll; /* Hide overflow text during animation */
+  border-right: 0.15em solid orange; /* Add a blinking cursor effect */
+  animation: typing 3s steps(40) infinite;
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+
 
 .welcome-subTitle{
   max-width: 500rem;
