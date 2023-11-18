@@ -53,31 +53,20 @@
 }
 
 .welcome-mainTitle {
-  max-width: 50%;
+  max-width: 70%;
   align-items: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 7rem;
+  margin-top: 7rem;
   margin-bottom: 0;
   font-size: 5rem;
   font-weight: 600;
-  white-space: nowrap;
-  overflow:scroll; /* Hide overflow text during animation */
-  border-right: 0.15em solid orange; /* Add a blinking cursor effect */
-  animation: typing 3s steps(40) infinite;
+  white-space: wrap;
+  overflow: hidden; /* Hide overflow text during animation */
+  border-right: 0.06em solid orange; /* Add a blinking cursor effect */
+  animation: typing 5s steps(50) infinite;
 }
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-
 
 
 .welcome-subTitle{
