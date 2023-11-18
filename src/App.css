@@ -169,8 +169,129 @@
   border-radius: 50%; 
 }
 
-.feedbackBlock-container {
+/* .feedbackBlock-container {
   display: inline-block;
   padding-top: 10rem; 
   
+} */
+
+/* Travel Card css  */
+
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px; 
+  height: 55px; 
 }
+
+.header--title {
+  font-weight: 500;
+  color: white;
+  padding-left: 7px;
+  letter-spacing: -1px;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: scroll;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+
+.travelCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  max-width: 19rem;
+  height: 28rem;
+  border-radius: 1.5rem;
+  padding-top: 2rem;
+  background-color: #fff;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.mainSection::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+.mainSection::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.mainSection::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+.travelCard--img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.travelCard--content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+
+.travelCard--pinLogo {
+  width:7px;
+  padding-right: 5px;
+}
+
+.travelCard--location {
+  font-size: 10.2px;
+  padding-right: 12px;
+  letter-spacing: 3px;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.travelCard--googleMapLink {
+  color: #918E9B;
+  font-size: 10.2px;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.travelCard--name {
+  font-weight: 900;
+  color: #2B283A;
+  font-size: 25px;
+  padding-bottom: 2px;
+  padding-top: 4px;
+}
+
+.travelCard--title {
+  font-weight: 700;
+  color: #2B283A;
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+}
+
+.travelCard--date {
+  font-weight: bold;
+  font-size: 10.2px;
+  padding-bottom: 10px;
+}
+
+.travelCard--description {
+  font-size: 15px;
+  width: 85%;
+  align-self: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+/* Travel Card css  */
