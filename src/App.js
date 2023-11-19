@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import Review from './components/Review';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import EmailUs from './components/EmailUs'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Welcome/>
       <Review/>
       <ContactUs/>
+      <EmailUs/>
       <Footer/>
     </div>
   );
