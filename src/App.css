@@ -9,6 +9,10 @@
 
 .Header {
   padding: 0.1rem 4rem;
+  position:fixed;
+  z-index: 1000;
+  background-color: #fff;
+  width: -webkit-fill-available;
   display: flex;
   align-items: center;
 }
@@ -157,16 +161,16 @@
 
 
 .review-button {
-    background-image: rgb(255, 255, 255);
-    border-radius: 1.5rem;
-    border-style: none;
-    color: black;
-    font-size: 1.4rem;
-    font-weight:700;
-    text-decoration: none;
-    height: 2.8rem;
-    width: 14rem;
-    white-space: nowrap;
+  background-image: rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  border-style: none;
+  color: black;
+  font-size: 1.4rem;
+  font-weight:700;
+  text-decoration: none;
+  height: 2.8rem;
+  width: 14rem;
+  white-space: nowrap;
 }
 
 .feedback-container {
@@ -216,13 +220,13 @@
 }
 
 .mainSection {
-    display: flex;
-    flex-direction: column-reverse;
-    overflow: scroll;
-    flex-wrap: wrap;
-    padding-top: 3rem;
-    padding-right: 2rem;
-    padding-left: 7.6rem;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: scroll;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 7.6rem;
 }
 
 .travelCard{
@@ -342,12 +346,16 @@
 .contactUs-mainTitle,
 .contactUs-subTitle {
   animation: none;
-  max-width: 50%;
+  width: 50%;
+  justify-content: left;
+  position: relative;
+  left: 0;
   text-align: left;
   margin-left: 10rem;
+  margin-right: auto;
   overflow: visible;
   white-space: pre-wrap;
-  word-wrap: break-word; /* Allow long words to break and wrap onto the next line */
+  word-wrap: break-word;
 }
 
 
@@ -374,5 +382,12 @@
   margin-top: 6rem;
 }
 
+.emailUs-mainText {
+  font-size: 2rem;
+  font-weight:500;
+  color:white;
+}
 
-
+.emailUs-subText {
+  color:white;
+}
