@@ -330,7 +330,7 @@
 .contactUs--container {
   background-size: contain;
   padding: 0;
-  height: 65rem;
+  height: 67rem;
   display: flex;
   flex-direction: column;
 }
@@ -380,9 +380,12 @@
   background: url(review-bg.png) top left repeat, rgb(14, 14, 14) no-repeat;
   background-size: contain;
   margin-top: 4rem;
+  padding-top: 10rem;
+}
+
+.emailUs-elementContainer{
   display: flex;
   flex-direction: row;
-  padding-top: 10rem;
   justify-content: center;
 }
 
@@ -406,5 +409,22 @@
   color:white;
   max-width: 10rem;
 }
+
+.emailUs-buttonContainer {
+  
+}
+
+.emailUs-button {
+  font-size: 1.2rem;
+  max-width: 500rem;
+  height: 2.7rem;
+  width: 10rem;
+}
+
+.whiteBg {
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+  color: black;
+}
+
 
 
