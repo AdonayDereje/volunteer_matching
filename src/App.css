@@ -330,13 +330,13 @@
 .contactUs--container {
   background-size: contain;
   padding: 0;
-  height: 61.7rem;
+  height: 65rem;
   display: flex;
   flex-direction: column;
 }
 
 .contactUs-bg-pattern{
-  width: 62.55rem;
+  width: 65.6rem;
   position: absolute;
   right: 0;
   transform: rotate(180deg);
@@ -379,20 +379,32 @@
 .emailUs-container {
   background: url(review-bg.png) top left repeat, rgb(14, 14, 14) no-repeat;
   background-size: contain;
-  margin-top: 6rem;
+  margin-top: 4rem;
   display: flex;
-  padding-top: 6rem;
-  padding-left: 8rem;
+  flex-direction: row;
+  padding-top: 10rem;
+  justify-content: center;
+}
+
+.emailUs-element {
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  height: 12rem;
 }
 
 .emailUs-mainText {
   font-size: 2rem;
   font-weight:500;
   color:white;
-  
+  margin-bottom: 0;
+  flex-direction: column;
 }
 
 .emailUs-subText {
+  font-size: 0.6rem;
   color:white;
   max-width: 10rem;
 }
+
+
