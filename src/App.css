@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Montserrat', Courier, monospace;  
+  font-family: 'Montserrat', 'Courier', 'monospace';  
   resize: both;
 }
 
@@ -380,14 +380,19 @@
   background: url(review-bg.png) top left repeat, rgb(14, 14, 14) no-repeat;
   background-size: contain;
   margin-top: 6rem;
+  display: flex;
+  padding-top: 6rem;
+  padding-left: 8rem;
 }
 
 .emailUs-mainText {
   font-size: 2rem;
   font-weight:500;
   color:white;
+  
 }
 
 .emailUs-subText {
   color:white;
+  max-width: 10rem;
 }
